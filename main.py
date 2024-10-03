@@ -6,8 +6,8 @@ logging.basicConfig(level=logging.INFO)
 
 model = ARModelTV1()
 model.n_iter = 1000
-model.context_length = 52
-model.prediction_length = 12
+model.context_length = 12
+model.prediction_length = 3
 model.learning_rate = 1e-5
 
 app = generate_app(model)
