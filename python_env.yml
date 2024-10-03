@@ -1,0 +1,14 @@
+# Python version required to run the project.
+python: "3.11.3"
+# Dependencies required to build packages. This field is optional.
+build_dependencies:
+  - pip
+  - setuptools
+  - wheel==0.37.1
+# Dependencies required to run the project.
+dependencies:
+  - mlflow==2.3
+  - flax
+  - jax
+  - git+https://github.com/dhis2/chap-core.git@9dbbdea56cc557131eaa3a887280962b30d06fce
+  - git+https://github.com/knutdrand/ch_modelling.git@d7758fac7d4c9aa70bfd405ca08b29e28acdc015
