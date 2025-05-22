@@ -1,5 +1,9 @@
 name: "auto_regressive_monthly"
 python_env: python_env.yml
+required_covariates:
+  - rainfall
+  - mean_temperature
+  - population
 entry_points:
   train:
     parameters:
