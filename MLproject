@@ -1,5 +1,5 @@
 name: "auto_regressive_monthly"
-python_env: python_env.yml
+uv_env: pyproject.toml
 required_covariates:
   - rainfall
   - mean_temperature
