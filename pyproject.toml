@@ -3,9 +3,9 @@ name = "auto_regressive_monthly"
 version = "0.1.0"
 requires-python = ">=3.11"
 dependencies = [
-    "mlflow>=2.16",
-    "flax>=0.10.2",
-    "jax>=0.4.31",
-    "chap-core>=1.0.17",
-    "ch_modelling @ git+https://github.com/knutdrand/ch_modelling.git@7dbd7c4e5ec428fbfc5e9999f6e13943e1f1f795",
+    "mlflow==2.16",
+    "flax==0.10.2",
+    "jax==0.4.31",
+    "chap-core==1.0.17",
+    "ch_modelling @ git+https://github.com/knutdrand/ch_modelling.git@cadd36342394f0217168e4fe9ec6cf1e0383ce1b",
 ]
